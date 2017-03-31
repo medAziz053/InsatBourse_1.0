@@ -1,0 +1,22 @@
+{
+    "insatBourseApp": {
+        "userWallet" : {
+            "home": {
+                "title": "UserWallets",
+                "createLabel": "Créer un nouveau User Wallet",
+                "createOrEditLabel": "Créer ou éditer un User Wallet",
+                "search": "Recherche pour User Wallet"
+            },
+            "created": "Un nouveau User Wallet a été créé avec l'identifiant {{ param }}",
+            "updated": "Le User Wallet avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le User Wallet avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le User Wallet {{ id }} ?"
+            },
+            "detail": {
+                "title": "User Wallet"
+            },
+            "balance": "Balance"
+        }
+    }
+}

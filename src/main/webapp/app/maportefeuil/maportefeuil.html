@@ -1,0 +1,45 @@
+<div ng-cloak style="background-color: #1a2633">
+
+    <div class="row">
+
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <img src="../content/images/wallet.png" />
+            Portefeuille</div>
+        <div class="panel-body" style="background-color: #1a2633;">
+            <p style="color: #FFFFFF">{{myWallet.solde}}  D.T</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <img src="../content/images/wallet.png"/>
+                Mes valeurs</div>
+            <div class="panel-body" style="background-color: #1a2633">
+                <table class="table table-condensed">
+                    <thead>
+                        <tr>
+                            <th style="color: #FFFFFF">Nom</th>
+                            <th style="color: #FFFFFF">prix</th>
+                            <th style="color: #FFFFFF">quantité</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="action in actions">
+                        <td style="color: #FFFFFF">{{action.name}}</td>
+                        <td style="color: #FFFFFF">{{action.price}}</td>
+                        <td style="color: #FFFFFF">{{action.quantity}}</td>
+                        <td>
+                            <button type="button" class="btn btn-danger">Vendre</button>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

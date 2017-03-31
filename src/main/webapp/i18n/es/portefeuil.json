@@ -1,0 +1,23 @@
+{
+    "insatBourseApp": {
+        "portefeuil" : {
+            "home": {
+                "title": "Portefeuils",
+                "createLabel": "Crear nuevo Portefeuil",
+                "createOrEditLabel": "Crear o editar Portefeuil",
+                "search": "Search for Portefeuil"
+            },
+            "created": "Un nuevo Portefeuil ha sido creado con el identificador {{ param }}",
+            "updated": "Un Portefeuil ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Portefeuil ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Portefeuil {{ id }}?"
+            },
+            "detail": {
+                "title": "Portefeuil"
+            },
+            "solde": "Solde",
+            "user": "User"
+        }
+    }
+}

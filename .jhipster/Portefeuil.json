@@ -1,0 +1,22 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "user",
+            "otherEntityName": "user",
+            "relationshipType": "one-to-one",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "solde",
+            "fieldType": "Float"
+        }
+    ],
+    "changelogDate": "20161229005232",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "portefeuil",
+    "pagination": "no"
+}

@@ -1,0 +1,24 @@
+{
+    "insatBourseApp": {
+        "valeur" : {
+            "home": {
+                "title": "Valeurs",
+                "createLabel": "Create a new Valeur",
+                "createOrEditLabel": "Create or edit a Valeur",
+                "search": "Search for Valeur"
+            },
+            "created": "A new Valeur is created with identifier {{ param }}",
+            "updated": "A Valeur is updated with identifier {{ param }}",
+            "deleted": "A Valeur is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Valeur {{ id }}?"
+            },
+            "detail": {
+                "title": "Valeur"
+            },
+            "name": "Name",
+            "qty": "Qty",
+            "price": "Price"
+        }
+    }
+}

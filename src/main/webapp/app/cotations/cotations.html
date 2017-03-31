@@ -1,0 +1,40 @@
+<div ng-cloak>
+    <div class="row">
+        <div class="container-fluid">
+
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.name"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.ouv">Ouverture</th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.pH"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.pB"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.vTitres"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.vDT"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.dernier"></th>
+                        <th style="color: #FFFFFF" data-translate="cotations.th.var"></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items ">
+                        <td>
+                            <a href={{item.cotDetails}} >{{item.companyName}}</a>
+                        </td>
+                        <td style="color: #FFFFFF" ng-bind="item.ouverture"></td>
+                        <td style="color: #FFFFFF" ng-bind="item.pHaut"></td>
+                        <td style="color: #FFFFFF" ng-bind="item.pBas"></td>
+                        <td style="color: #FFFFFF" ng-bind="item.volumeTitres"></td>
+                        <td style="color: #FFFFFF" ng-bind="item.volumeDT"></td>
+                        <td ><b style="color: #FFFFFF" ng-bind="item.dernier" ></b></td>
+                        <td ng-class="{'cote-down': item.variation.includes('-'), 'cote-up': !item.variation.includes('-')}">{{item.variation}}</td>
+                        <td>
+                            <button type="button" class="btn btn-info">Reporting</button>
+                            <button type="button" class="btn btn-success">Acheter</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+{
+    "insatBourseApp": {
+        "actionBourse" : {
+            "home": {
+                "title": "Action Bourses",
+                "createLabel": "Crear nuevo Action Bourse",
+                "createOrEditLabel": "Crear o editar Action Bourse",
+                "search": "Search for Action Bourse"
+            },
+            "created": "Un nuevo Action Bourse ha sido creado con el identificador {{ param }}",
+            "updated": "Un Action Bourse ha sido actualizado con el identificador {{ param }}",
+            "deleted": "Un Action Bourse ha sido eliminado con el identificador {{ param }}",
+            "delete": {
+                "question": "¿Seguro que quiere eliminar Action Bourse {{ id }}?"
+            },
+            "detail": {
+                "title": "Action Bourse"
+            },
+            "name": "Name",
+            "price": "Price",
+            "quantity": "Quantity",
+            "portefeuil": "Portefeuil"
+        }
+    }
+}

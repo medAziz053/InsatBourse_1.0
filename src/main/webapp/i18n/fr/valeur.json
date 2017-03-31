@@ -1,0 +1,24 @@
+{
+    "insatBourseApp": {
+        "valeur" : {
+            "home": {
+                "title": "Valeurs",
+                "createLabel": "Créer un nouveau Valeur",
+                "createOrEditLabel": "Créer ou éditer un Valeur",
+                "search": "Recherche pour Valeur"
+            },
+            "created": "Un nouveau Valeur a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Valeur avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Valeur avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Valeur {{ id }} ?"
+            },
+            "detail": {
+                "title": "Valeur"
+            },
+            "name": "Name",
+            "qty": "Qty",
+            "price": "Price"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "balance",
+            "fieldType": "Float"
+        }
+    ],
+    "changelogDate": "20161228025525",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "user_wallet",
+    "pagination": "pager"
+}

@@ -1,0 +1,158 @@
+<div ng-cloak style="background-color: #1a2633">
+    <div class="row" style="background-color: #1a2633">
+        <div class="col-md-4" style="background-color: #1a2633">
+            <div class="panel panel-primary">
+                <div class="panel-heading">PALMARES</div>
+                <div class="panel-body" style="background-color: #1a2633">
+                    <table class="table table-condensed">
+
+                        <tbody>
+                        <tr>
+                            <td class="up-arrow"></td>
+                            <td ng-bind="cotationsSorted[0].name" class="home"></td>
+                            <td ng-bind="cotationsSorted[0].value" class="home"></td>
+                            <td class="cote-up">{{cotationsSorted[1].var}}%</td>
+                        </tr>
+                        <tr>
+                            <td class="up-arrow"></td>
+                            <td ng-bind="cotationsSorted[1].name" class="home"></td>
+                            <td ng-bind="cotationsSorted[1].value" class="home"></td>
+                            <td class="cote-up">{{cotationsSorted[1].var}}%</td>
+                        </tr>
+                        <tr>
+                            <td class="up-arrow"></td>
+                            <td ng-bind="cotationsSorted[2].name" class="home"></td>
+                            <td ng-bind="cotationsSorted[2].value" class="home"></td>
+                            <td class="cote-up">{{cotationsSorted[2].var}}%</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="down-arrow"></td>
+                            <td ng-bind="cotationsSorted[cotationsSorted.length-1].name" class="home"></td>
+                            <td ng-bind="cotationsSorted[cotationsSorted.length-1].value" class="home"></td>
+                            <td class="cote-down" >{{cotationsSorted[cotationsSorted.length-1].var}}%</td>
+                        </tr>
+                        <tr>
+                            <td class="down-arrow"></td>
+                            <td class="home" ng-bind="cotationsSorted[cotationsSorted.length-2].name"></td>
+                            <td class="home" ng-bind="cotationsSorted[cotationsSorted.length-2].value"></td>
+                            <td class="cote-down">{{cotationsSorted[cotationsSorted.length-2].var}}%</td>
+                        </tr>
+                        <tr>
+                            <td class="down-arrow"></td>
+                            <td class="home" ng-bind="cotationsSorted[cotationsSorted.length-3].name"></td>
+                            <td class="home" ng-bind="cotationsSorted[cotationsSorted.length-3].value"></td>
+                            <td class="cote-down">{{cotationsSorted[cotationsSorted.length-3].var}}%</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <img src="http://www.ilboursa.com/graphes/pie_ad2.aspx" alt="palmares tunis bourse"  width="150" height="52">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="panel panel-primary">
+                <div class="panel-heading">Tableau de bord</div>
+                <div class="panel-body"  style="background-color: #1a2633">
+                    <div class="row" >
+                    <div class="col-md-6"  style="background-color: #1a2633">
+                        <ul class="list-group" >
+                            <li class="list-group-item "  style="background-color: #1a2633">
+                                <table class="table ">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="http://www.ilboursa.com/i/tn.png" width="25" height="17" alt="">
+                                                <a href="http://www.ilboursa.com/marches/cotation.aspx?s=PX1">TUNINDEX</a>
+                                            </td>
+                                            <td class="home">5443,9</td>
+                                            <td class="cote-down">-0,09%</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li class="list-group-item "  style="background-color: #1a2633">
+                                <table class="table ">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="http://www.ilboursa.com/i/dz.png" width="25" height="17" alt="">
+                                            <a href="http://www.ilboursa.com/marches/cotation.aspx?s=DZIDX.dz">ALGER</a>
+                                        </td>
+                                        <td class="home">5443,9</td>
+                                        <td class="cote-down">-0,09%</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li class="list-group-item "  style="background-color: #1a2633">
+                                <table class="table ">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="http://www.ilboursa.com/i/ma.png" width="25" height="17" alt="">
+                                            <a href="http://www.ilboursa.com/marches/cotation.aspx?s=MASI.ma">MASI</a>
+                                        </td>
+                                        <td class="home">5443,9</td>
+                                        <td class="cote-down">-0,09%</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </li>
+                            <li class="list-group-item "  style="background-color: #1a2633">
+                                <table class="table borderless ">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <img src="http://www.ilboursa.com/i/eur.png" width="25" height="17" alt="">
+                                            <a href="http://www.ilboursa.com/marches/cotation.aspx?s=EURTND">EUR / TND</a>
+                                        </td>
+                                        <td class="home">5443,9</td>
+                                        <td class="cote-down">-0,09%</td>
+                                    </tr>
+
+                                    </tbody>
+                                </table>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <img width="300" height="225" src="http://www.ilboursa.com/graphes/tunindex3.aspx" class="graph" alt="tunindex tunisie bourse">
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8"></div>
+        <!--
+        <div class="col-md-4">
+            <span class="hipster img-responsive img-rounded"></span>
+        </div>
+-->
+        <!--
+        <div class="col-md-8">
+            <h1 data-translate="home.title">Welcome, Java Hipster!</h1>
+            <p class="lead" data-translate="home.subtitle">This is your homepage</p>
+
+            <div ng-switch="vm.isAuthenticated()">
+                <div class="alert alert-success" ng-switch-when="true" data-translate="home.logged.message" translate-values="{username: '{{vm.account.login}}'}">
+                    You are logged in as user "{{vm.account.login}}".
+                </div>
+
+                <div class="alert alert-warning" ng-switch-when="false" data-translate="global.messages.info.authenticated" translate-compile>
+                    If you want to <a class="alert-link" href="" ng-click="vm.login()">sign in</a>, you can try the default accounts:<br/>- Administrator (login="admin" and password="admin") <br/>- User (login="user" and password="user").
+                </div>
+
+                <div class="alert alert-warning" ng-switch-when="false" data-translate="global.messages.info.register" translate-compile>
+                    You don't have an account yet? <a class="alert-link" ui-sref="register">Register a new account</a>
+                </div>
+            </div>
+
+
+        </div>-->
+    </div>
+</div>

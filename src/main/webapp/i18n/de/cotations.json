@@ -1,0 +1,21 @@
+{
+    "cotations": {
+        "title": "Bienvenue, Java Hipster !",
+        "subtitle": "Ceci est votre page d'accueil",
+        "logged": {
+            "message": "Vous êtes connecté en tant que \"{{username}}\"."
+        },
+        "th": {
+            "name": "Nom",
+            "ouv": "Ouverture",
+            "pH": "+ Haut",
+            "pB": "+ Bas",
+            "vTitres": "Volume (Titres)",
+            "vDT": "Volume (DT)",
+            "dernier": "Dernier",
+            "var": "Variation"
+        },
+        "like": "Si vous aimez JHipster, donnez nous une étoile sur",
+        "github": "GitHub"
+    }
+}
